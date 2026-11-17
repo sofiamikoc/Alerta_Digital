@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alerta Digital: prevención del bullying y ciberbullying. Reconocé situaciones, aprendé cómo actuar y encontrá recursos de ayuda.">
+  <title>Alerta Digital | Prevenir, acompañar, actuar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#inicio" aria-label="Alerta Digital, ir al inicio">
+      <img class="logo-image" src="logo-alerta-digital.jpeg" alt="Logo de Alerta Digital">
+    </a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#conoce">Conocé el problema</a>
+      <a href="#simulador">Situaciones</a>
+      <a href="#test">Test</a>
+      <a href="#docentes">Docentes</a>
+      <a class="nav-help" href="#ayuda">Necesito ayuda</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> PREVENCIÓN · CONCIENTIZACIÓN · ACOMPAÑAMIENTO</p>
+        <h1>No es una broma<br>si alguien <span class="gradient-text">está sufriendo.</span></h1>
+        <p class="hero-description">Un espacio para reconocer el bullying y el ciberbullying, aprender cómo actuar y recordar que nadie tiene que enfrentar el acoso en soledad.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#simulador">Explorar situaciones <span>↗</span></a>
+          <a class="button button-secondary" href="#ayuda">Necesito orientación</a>
+        </div>
+        <div class="hero-note"><span>✓</span> Informate · Reflexioná · Buscá apoyo</div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración decorativa de protección digital">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="shield"><img src="logo-alerta-digital-transparente.png" alt="Logo Alerta Digital" class="shield-logo"></div>
+        <div class="float-card float-card-top"><span class="float-icon teal">✓</span><span><b>Tu voz importa</b><small>Escuchar también ayuda</small></span></div>
+        <div class="float-card float-card-bottom"><span class="float-icon purple">♡</span><span><b>No estás solo/a</b><small>Pedí apoyo cuando lo necesites</small></span></div>
+        <div class="spark spark-one">✦</div><div class="spark spark-two">+</div><div class="spark spark-three">✧</div>
+      </div>
+      <a class="scroll-cue" href="#conoce">DESCUBRÍ MÁS <span>↓</span></a>
+    </section>
+
+    <section class="section intro-strip">
+      <div><span class="strip-number">01</span><div><h2>Reconocer</h2><p>Aprendé a identificar señales de acoso.</p></div></div>
+      <div><span class="strip-number">02</span><div><h2>Reflexionar</h2><p>Pensá cómo actuar en diferentes situaciones.</p></div></div>
+      <div><span class="strip-number">03</span><div><h2>Buscar apoyo</h2><p>Conocé pasos y recursos para pedir ayuda.</p></div></div>
+    </section>
+
+    <section class="section" id="conoce">
+      <div class="section-heading">
+        <p class="eyebrow">ENTENDER ES EL PRIMER PASO</p>
+        <h2>Conocé el <span class="gradient-text">problema</span></h2>
+        <p>El acoso puede tomar distintas formas. Elegí una tarjeta para conocer ejemplos y señales de alerta.</p>
+      </div>
+      <div class="type-grid">
+        <article class="type-card">
+          <img class="type-image" src="imagenes/senalamiento-bullying.jpg" alt="Ilustración de un estudiante señalado por otros, ejemplo de acoso escolar">
+          <div class="type-icon icon-coral">✋</div><span class="card-tag">PRESENCIAL</span>
+          <h3>Físico</h3><p>Golpear, empujar, patear o dañar las pertenencias de alguien.</p>
+          <button class="text-button detail-toggle" aria-expanded="false">Ver ejemplo <span>＋</span></button>
+          <div class="detail-panel"><p><b>Ejemplo:</b> un grupo empuja repetidamente a un compañero en los recreos y le impide pasar.</p><p><b>Qué hacer:</b> priorizar la seguridad y avisar a una persona adulta responsable.</p></div>
+        </article>
+        <article class="type-card">
+          <img class="type-image" src="imagenes/stop-bullying-manos.jpg" alt="Persona mostrando las manos para pedir que se detenga el bullying">
+          <div class="type-icon icon-yellow">“ ”</div><span class="card-tag">PALABRAS</span>
+          <h3>Verbal</h3><p>Insultos, apodos hirientes, amenazas o comentarios humillantes.</p>
+          <button class="text-button detail-toggle" aria-expanded="false">Ver ejemplo <span>＋</span></button>
+          <div class="detail-panel"><p><b>Ejemplo:</b> cada día se burlan de una persona por su aspecto o forma de hablar.</p><p><b>Qué hacer:</b> no sumarse a las burlas y buscar apoyo para frenar la situación.</p></div>
+        </article>
+        <article class="type-card">
+          <img class="type-image" src="imagenes/aislamiento-escolar.jpg" alt="Estudiante angustiado rodeado de mensajes y señales de exclusión">
+          <div class="type-icon icon-purple">◌</div><span class="card-tag">EMOCIONAL</span>
+          <h3>Psicológico y social</h3><p>Intimidar, humillar, difundir rumores o excluir intencionalmente.</p>
+          <button class="text-button detail-toggle" aria-expanded="false">Ver ejemplo <span>＋</span></button>
+          <div class="detail-panel"><p><b>Ejemplo:</b> compañeros organizan al resto para dejar siempre sola a una persona.</p><p><b>Qué hacer:</b> acompañarla, no reproducir rumores y contárselo a alguien de confianza.</p></div>
+        </article>
+        <article class="type-card">
+          <img class="type-image" src="imagenes/ciberbullying-dispositivos.jpg" alt="Ilustración sobre el ciberacoso mediante dispositivos y redes">
+          <div class="type-icon icon-blue">⌁</div><span class="card-tag">ENTORNO DIGITAL</span>
+          <h3>Ciberbullying</h3><p>Hostigamiento por redes, chats, juegos o publicación de contenido ofensivo.</p>
+          <button class="text-button detail-toggle" aria-expanded="false">Ver ejemplo <span>＋</span></button>
+          <div class="detail-panel"><p><b>Ejemplo:</b> comparten una foto sin permiso y la usan para burlarse en un grupo.</p><p><b>Qué hacer:</b> conservar pruebas de forma segura, reportar el contenido y pedir ayuda.</p></div>
+        </article>
+        <article class="type-card">
+          <img class="type-image" src="imagenes/acoso-silenciamiento.jpg" alt="Ilustración simbólica de una persona que necesita ser escuchada y protegida">
+          <div class="type-icon icon-pink">◎</div><span class="card-tag">LÍMITES Y RESPETO</span>
+          <h3>Acoso sexual</h3><p>Comentarios, presiones o conductas sexuales no deseadas.</p>
+          <button class="text-button detail-toggle" aria-expanded="false">Ver ejemplo <span>＋</span></button>
+          <div class="detail-panel"><p><b>Ejemplo:</b> alguien insiste con mensajes sexuales después de que le pidieron que pare.</p><p><b>Qué hacer:</b> buscar ayuda de inmediato. No es necesario manejarlo a solas.</p></div>
+        </article>
+        <article class="type-card">
+          <img class="type-image" src="imagenes/ilustracion-discriminacion.webp" alt="Ilustración sobre discriminación y exclusión en un entorno de grupo">
+          <div class="type-icon icon-teal">▤</div><span class="card-tag">ÁMBITO ESCOLAR</span>
+          <h3>Acoso hacia docentes</h3><p>Hostigamiento, amenazas, humillaciones o agresiones a profesores.</p>
+          <button class="text-button detail-toggle" aria-expanded="false">Ver ejemplo <span>＋</span></button>
+          <div class="detail-panel"><p><b>Ejemplo:</b> se publican mensajes amenazantes sobre un docente en un grupo.</p><p><b>Qué hacer:</b> registrar lo ocurrido, preservar pruebas y comunicarlo a las autoridades correspondientes.</p></div>
+        </article>
+      </div>
+      <p class="notice"><span>ⓘ</span> No todo desacuerdo aislado es bullying. La repetición, el desequilibrio de poder, el contexto y la gravedad ayudan a entender la situación. Una agresión aislada también puede requerir intervención.</p>
+    </section>
+
+    <section class="section dark-section" id="simulador">
+      <div class="section-heading">
+        <p class="eyebrow">PONETE EN SITUACIÓN</p>
+        <h2>¿Qué harías <span class="gradient-text">vos?</span></h2>
+        <p>Leé cada caso, elegí una respuesta y descubrí qué alternativas pueden ayudar.</p>
+      </div>
+      <div class="scenario-layout">
+        <div class="scenario-progress">
+          <div class="progress-top"><span id="scenario-count">CASO 01 / 03</span><span id="scenario-percent">33%</span></div>
+          <div class="progress-track"><div class="progress-fill" id="scenario-progress-fill"></div></div>
+          <div class="scenario-mini"><span class="mini-icon">◈</span><h3>Simulador de decisiones</h3><p>No se trata de juzgarte. La idea es aprender opciones seguras y responsables.</p></div>
+          <div class="scenario-tip"><span>✦</span> Si hay peligro inmediato, alejate si podés hacerlo con seguridad y buscá ayuda de una persona adulta o de los servicios de emergencia.</div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-label" id="scenario-category">CIBERBULLYING</div>
+          <h3 id="scenario-title">Una foto compartida sin permiso</h3>
+          <p class="scenario-description" id="scenario-description">Un compañero comparte una foto tuya sin permiso en un grupo del curso. Varias personas empiezan a burlarse.</p>
+          <div class="choice-list" id="scenario-options">
+            <button class="choice" data-choice="0"><span class="choice-letter">A</span><span>Responder insultando a todos.</span><span class="choice-arrow">↗</span></button>
+            <button class="choice" data-choice="1"><span class="choice-letter">B</span><span>Ignorarlo y no contárselo a nadie.</span><span class="choice-arrow">↗</span></button>
+            <button class="choice" data-choice="2"><span class="choice-letter">C</span><span>Guardar pruebas, reportar y pedir ayuda.</span><span class="choice-arrow">↗</span></button>
+            <button class="choice" data-choice="3"><span class="choice-letter">D</span><span>Compartir la foto de otra persona como venganza.</span><span class="choice-arrow">↗</span></button>
+          </div>
+          <div class="feedback" id="scenario-feedback" hidden aria-live="polite"></div>
+          <div class="scenario-footer"><span id="scenario-hint">Elegí una opción para ver la explicación.</span><button class="button button-primary" id="next-scenario" disabled>Siguiente caso <span>→</span></button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="test">
+      <div class="section-heading">
+        <p class="eyebrow">PONÉ A PRUEBA LO QUE APRENDISTE</p>
+        <h2>¿Broma, conflicto o <span class="gradient-text">bullying?</span></h2>
+        <p>Respondé estas preguntas. Al final vas a recibir una devolución educativa.</p>
+      </div>
+      <div class="quiz-shell">
+        <div class="quiz-top"><span id="quiz-progress-label">PREGUNTA 1 DE 5</span><div class="quiz-track"><div id="quiz-progress-fill"></div></div></div>
+        <div id="quiz-content">
+          <h3 id="quiz-question">Dos compañeros discuten una sola vez por un trabajo. Ambos pueden expresarse sin intimidación.</h3>
+          <div class="quiz-options" id="quiz-options">
+            <button class="quiz-option" data-answer="bullying">Es bullying</button>
+            <button class="quiz-option" data-answer="conflicto">Es un conflicto puntual</button>
+            <button class="quiz-option" data-answer="broma">Es una broma</button>
+          </div>
+          <div id="quiz-feedback" class="quiz-feedback" hidden aria-live="polite"></div>
+          <div class="quiz-actions"><span id="quiz-hint">Elegí una respuesta.</span><button class="button button-dark" id="quiz-next" disabled>Siguiente <span>→</span></button></div>
+        </div>
+        <div id="quiz-result" hidden></div>
+      </div>
+    </section>
+
+    <section class="section help-section" id="ayuda">
+      <div class="help-copy">
+        <p class="eyebrow">NO TENÉS QUE PASAR POR ESTO A SOLAS</p>
+        <h2>Necesito <span class="gradient-text">ayuda.</span></h2>
+        <p>Si estás viviendo una situación de acoso, si te preocupa alguien o si no sabés cómo intervenir, podés empezar por estos pasos.</p>
+        <div class="help-steps">
+          <div><span class="step-number">01</span><div><h3>Buscá a alguien de confianza</h3><p>Puede ser un familiar, docente, preceptor, orientador escolar u otra persona adulta responsable.</p></div></div>
+          <div><span class="step-number">02</span><div><h3>Contá lo que pasó</h3><p>Explicá los hechos. Si ocurre en línea, guardá capturas o enlaces cuando sea seguro hacerlo.</p></div></div>
+          <div><span class="step-number">03</span><div><h3>Pedí que te acompañen</h3><p>No tenés que resolverlo a solas. Si continúa, volvé a pedir ayuda y buscá otra persona responsable.</p></div></div>
+        </div>
+        <div class="urgent-note"><span>!</span><p><b>Si hay peligro inmediato</b>, amenazas graves o riesgo de que alguien salga lastimado, buscá ayuda presencial de inmediato y contactá los servicios de emergencia de tu zona.</p></div>
+      </div>
+      <form class="help-form" id="help-form">
+        <div class="form-icon">♡</div>
+        <h3>Orientación inicial</h3>
+        <p>Este formulario es una demostración local. No envía ni guarda tus respuestas y no es un canal de denuncia.</p>
+        <label for="person-type">¿Desde qué lugar buscás orientación?</label>
+        <select id="person-type" required>
+          <option value="">Seleccioná una opción</option>
+          <option>Estudiante</option><option>Docente</option><option>Familiar</option><option>Testigo de una situación</option><option>Otra persona</option>
+        </select>
+        <label for="situation-type">¿Qué situación te preocupa?</label>
+        <select id="situation-type" required>
+          <option value="">Seleccioná una opción</option>
+          <option>Bullying presencial</option><option>Ciberbullying o redes sociales</option><option>Amenazas o agresiones</option><option>Acoso hacia un/a docente</option><option>No estoy seguro/a</option>
+        </select>
+        <label for="help-need">¿Qué necesitás en este momento?</label>
+        <select id="help-need" required>
+          <option value="">Seleccioná una opción</option>
+          <option>Saber cómo actuar</option><option>Ayudar a otra persona</option><option>Encontrar recursos de ayuda</option><option>Hablar con una persona adulta</option>
+        </select>
+        <button class="button button-primary form-submit" type="submit">Ver orientación <span>→</span></button>
+        <div id="help-response" class="help-response" hidden aria-live="polite"></div>
+        <p class="privacy-note">Por seguridad, no incluyas nombres completos, direcciones, contraseñas ni detalles íntimos.</p>
+      </form>
+    </section>
+
+    <section class="section teacher-section" id="docentes">
+      <div class="teacher-art"><img class="teacher-photo" src="imagenes/parejas-respeto.png" alt="Ilustración de parejas unidas por un corazón, símbolo de respeto e inclusión"><div class="teacher-chip chip-one">RESPETO</div><div class="teacher-chip chip-two">CONVIVENCIA</div><div class="teacher-chip chip-three">APOYO</div></div>
+      <div class="teacher-copy">
+        <p class="eyebrow">LA PREVENCIÓN NOS INCLUYE A TODOS</p>
+        <h2>El acoso también puede afectar a <span class="gradient-text">docentes.</span></h2>
+        <p>Las amenazas, las humillaciones, el hostigamiento por redes y las agresiones hacia profesores también deben tomarse en serio.</p>
+        <div class="teacher-list">
+          <p><span>✓</span> Registrar los hechos con fechas y conservar evidencias pertinentes.</p>
+          <p><span>✓</span> Comunicar la situación a las autoridades institucionales correspondientes.</p>
+          <p><span>✓</span> Solicitar acompañamiento y evitar enfrentar amenazas en soledad.</p>
+          <p><span>✓</span> Proteger la privacidad de todas las personas involucradas.</p>
+        </div>
+        <a class="button button-dark" href="#recursos">Explorar recursos <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="section resources-section" id="recursos">
+      <div class="section-heading">
+        <p class="eyebrow">SEGUIR APRENDIENDO</p>
+        <h2>Recursos para <span class="gradient-text">prevenir.</span></h2>
+        <p>Pequeñas acciones que pueden ayudar a construir espacios más respetuosos, dentro y fuera de Internet.</p>
+      </div>
+      <div class="resource-grid">
+        <article class="resource-card"><div class="resource-visual"><img src="imagenes/stop-bullying-banner.png" alt="Ilustración Stop Bullying, contra el acoso presencial y digital" loading="lazy"></div><div class="resource-body"><span class="card-tag">SEGURIDAD DIGITAL</span><h3>Cuidá tu privacidad</h3><p>Revisá la privacidad de tus cuentas, usá contraseñas únicas y pensá antes de compartir datos o imágenes.</p><a href="https://www.argentina.gob.ar/justicia/convosenlaweb" target="_blank" rel="noopener noreferrer" class="resource-link">Recursos de ciudadanía digital ↗</a></div></article>
+        <article class="resource-card"><div class="resource-visual"><img src="imagenes/inclusion-diversidad.jpg" alt="Ilustración que promueve la inclusión y el respeto a la diversidad" loading="lazy"></div><div class="resource-body"><span class="card-tag">ACOMPAÑAMIENTO</span><h3>Escuchar también ayuda</h3><p>Si alguien te cuenta lo que vive, escuchá sin juzgar, creé en su necesidad de apoyo y ayudalo a encontrar una persona responsable.</p><a href="#ayuda" class="resource-link">Ver pasos para pedir ayuda ↗</a></div></article>
+        <article class="resource-card"><div class="resource-visual"><img src="imagenes/parejas-respeto.png" alt="Ilustración de personas unidas por el respeto y el afecto" loading="lazy"></div><div class="resource-body"><span class="card-tag">COMUNIDAD EDUCATIVA</span><h3>Construir una escuela segura</h3><p>Promové acuerdos de convivencia, actividades de reflexión y canales claros para pedir orientación.</p><a href="https://www.unicef.org/argentina/" target="_blank" rel="noopener noreferrer" class="resource-link">UNICEF Argentina ↗</a></div></article>
+      </div>
+      <p class="notice"><span>ⓘ</span> Los enlaces son recursos externos. Antes de publicar el sitio, agreguen los contactos locales verificados de la escuela y de los organismos de ayuda de su jurisdicción.</p>
+    </section>
+
+    <section class="closing-cta">
+      <div class="closing-symbol">✦</div><p class="eyebrow">UNA COMUNIDAD MÁS SEGURA EMPIEZA CON NOSOTROS</p>
+      <h2>Tu voz puede ser el comienzo del cambio.</h2>
+      <p>No te sumes a la burla. No compartas el daño. Escuchá, acompañá y pedí ayuda.</p>
+      <a class="button button-primary" href="#inicio">Volver al inicio ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo" href="#inicio"><img class="logo-image" src="logo-alerta-digital.jpeg" alt="Logo de Alerta Digital"></a>
+    <p>Proyecto educativo de prevención del bullying y el ciberbullying.</p>
+    <span class="footer-copy">© 2026 · Prevenir, acompañar, actuar.</span>
+  </footer>
+
+  <!-- Chatbot educativo AlertaBot -->
+  <section class="chatbot" id="chatbot" aria-label="Chat de ayuda AlertaBot">
+    <div class="chat-panel" id="chat-panel" hidden>
+      <div class="chat-header">
+        <div class="chat-avatar" aria-hidden="true">✦</div>
+        <div class="chat-heading"><strong>AlertaBot</strong><span><i></i> Asistente educativo</span></div>
+        <button class="chat-close" id="chat-close" type="button" aria-label="Cerrar chat">×</button>
+      </div>
+      <div class="chat-messages" id="chat-messages" role="log" aria-live="polite" aria-relevant="additions">
+        <div class="chat-message bot-message"><p>¡Hola! 👋 Soy AlertaBot. Puedo responder dudas sobre bullying, ciberbullying y seguridad digital. ¿Qué querés saber?</p></div>
+      </div>
+      <div class="chat-suggestions" id="chat-suggestions">
+        <button type="button" data-question="¿Qué es el bullying?">¿Qué es el bullying?</button>
+        <button type="button" data-question="¿Qué hago si me acosan por internet?">Ciberbullying</button>
+        <button type="button" data-question="¿Cómo puedo ayudar a un amigo?">Ayudar a alguien</button>
+      </div>
+      <form class="chat-form" id="chat-form">
+        <label class="sr-only" for="chat-input">Escribí tu pregunta</label>
+        <input id="chat-input" name="question" type="text" maxlength="500" placeholder="Escribí tu duda..." autocomplete="off" required>
+        <button type="submit" aria-label="Enviar mensaje">➤</button>
+      </form>
+      <p class="chat-disclaimer">AlertaBot ofrece orientación general, no reemplaza la ayuda de una persona adulta de confianza.</p>
+    </div>
+    <button class="chat-launcher" id="chat-launcher" type="button" aria-expanded="false" aria-controls="chat-panel"><span class="chat-launcher-icon">✦</span><span>¿Tenés dudas?</span><span class="chat-launcher-dot"></span></button>
+  </section>
+
+</body>
+</html>
